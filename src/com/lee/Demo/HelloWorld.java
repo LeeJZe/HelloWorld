@@ -11,5 +11,10 @@ public class HelloWorld {
         System.out.println(aa);
         String bb = Integer.toString(13);
         System.out.println(bb);
+        double numRandom = Math.random();
+        System.out.println(numRandom);
+        String oneString = "111";
+        System.out.println(oneString.equals(111));
+        System.out.println(Integer.parseInt(oneString)==111);
     }
 }
