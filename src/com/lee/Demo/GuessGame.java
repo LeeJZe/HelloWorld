@@ -1,13 +1,10 @@
 package com.lee.Demo;
 
     public class GuessGame {
-        private Player p1;
-        private Player p2;
-        private Player p3;
         public void startGame() {
-            p1 = new Player();
-            p2 = new Player();
-            p3 = new Player();
+            Player p1 = new Player();
+            Player p2 = new Player();
+            Player p3 = new Player();
 
             int guessp1;
             int guessp2 ;
