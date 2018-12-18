@@ -18,5 +18,26 @@ public class ArrayDemo {
         for (int i = 0; i <a1.length ; i++) {
             System.out.println("循环输出a1的值a1["+i+"]为："+a1[i]);
         }
+        for(int num:a1){
+            System.out.println(num);
+        }
+        //二维数组
+        int [][] b1 = new int[5][5];
+        for(int x =0;x < b1.length; x++){
+            for (int y = 0; y<b1[x].length; y++){
+                b1[x][y]=x+y;
+            }
+        }
+        System.out.println("b1数组的值为"+Arrays.deepToString(b1));
+        int d = 0;
+        for(int[] c1:b1){
+            System.out.print("b1["+d+"]的值为");
+            d++;
+            for(int c2:c1){
+                System.out.print(c2+",");
+            }
+            System.out.println();
+        }
+
     }
 }
