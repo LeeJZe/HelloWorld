@@ -7,6 +7,7 @@ public class PrintTriangle {
         print.printRightTriangle(n);
         print.printTriangleTwo(n);
 
+
     }
     private void printRightTriangle(int a){
         int last=0;
