@@ -1,4 +1,4 @@
-package com.lee.Demo;
+package com.lee.Demo.BaDemo;
 
 public class CountTo0 {
     public static void main (String[] args) {

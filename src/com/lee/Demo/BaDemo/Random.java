@@ -1,4 +1,4 @@
-package com.lee.Demo;
+package com.lee.Demo.BaDemo;
 
 public class Random {
     public static void main(String[] args){

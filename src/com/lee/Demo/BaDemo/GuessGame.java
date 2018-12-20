@@ -1,4 +1,4 @@
-package com.lee.Demo;
+package com.lee.Demo.BaDemo;
 
     public class GuessGame {
         public void startGame() {

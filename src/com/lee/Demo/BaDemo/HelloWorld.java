@@ -1,4 +1,4 @@
-package com.lee.Demo;
+package com.lee.Demo.BaDemo;
 
 public class HelloWorld {
     public static void main(String[] args){
@@ -14,7 +14,7 @@ public class HelloWorld {
         double numRandom = Math.random();
         System.out.println(numRandom);
         String oneString = "111";
-        System.out.println(oneString.equals(111));
+        System.out.println(oneString.equals("111"));
         System.out.println(Integer.parseInt(oneString)==111);
     }
 }
